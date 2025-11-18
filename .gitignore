@@ -35,3 +35,40 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# SSH keys and certificates
+*.pem
+*.key
+*.cert
+
+# Backup files
+*.backup
+*.tmp
+
+# Vagrant files (if used for testing)
+.vagrant/
+
+# Test files and directories
+**/.terraform.lock.hcl
+**/terraform.tfplan
+**/terraform.tfplan.json
+
+# Claude Code configuration (local only)
+CLAUDE.md
