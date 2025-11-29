@@ -72,3 +72,4 @@ Thumbs.db
 
 # Claude Code configuration (local only)
 CLAUDE.md
+.aider*
